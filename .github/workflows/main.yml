@@ -25,6 +25,9 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
+    - name: Fabric genSources
+      run: gradle genSources
+
     - name: Build jar
       run: gradle build
 
