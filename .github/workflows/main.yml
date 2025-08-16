@@ -29,4 +29,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Player-Miku
-        path: build/PlayerMiku-*.*
+        path: build/libs/PlayerMiku-*.*
