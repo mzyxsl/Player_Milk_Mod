@@ -20,7 +20,6 @@ public class PlayerMilkHandler implements UseEntityCallback {
         // 获取玩家手中的物品
         ItemStack stack = player.getStackInHand(hand);
 
-        // 修复：使用 BUCKET 而不是 IRON_BUCKET
         if (stack.isOf(Items.BUCKET) && entity instanceof PlayerEntity targetPlayer) {
 
             // 防止玩家对自己使用
