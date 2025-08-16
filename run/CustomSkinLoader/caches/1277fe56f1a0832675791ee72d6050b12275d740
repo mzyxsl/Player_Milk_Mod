@@ -1,9 +1,0 @@
-{
-  "id" : "b233b84864da411eb5f6027ac6b7c74e",
-  "name" : "mzyxsl",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTc1NTMyMTI1MjQzMSwKICAicHJvZmlsZUlkIiA6ICJiMjMzYjg0ODY0ZGE0MTFlYjVmNjAyN2FjNmI3Yzc0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJtenl4c2wiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjgzZWNhODZiZDZkNjMyOWU1ODhkYjMyODAyNDRkNzg4MWRiNmY2YWU2NmM1OGQ1MTUyYWI5ZGI3ZjlmMTAyMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
-  } ],
-  "profileActions" : [ ]
-}
