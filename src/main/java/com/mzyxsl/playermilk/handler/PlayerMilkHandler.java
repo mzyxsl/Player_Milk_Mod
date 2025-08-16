@@ -54,6 +54,7 @@ public class PlayerMilkHandler implements UseEntityCallback {
                     1.0F,
                     1.0F
             );
+            return ActionResult.SUCCESS;
         }
 
         return ActionResult.PASS;
