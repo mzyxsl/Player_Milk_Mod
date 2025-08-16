@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "playermilk",
+  "version": "${version}",
+  "name": "PlayerMilk",
+  "description": "可以接玩家的奶",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/playermilk/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.mzyxsl.playermilk.client.PlayermilkDataGenerator"
+    ],
+    "client": [
+      "com.mzyxsl.playermilk.client.PlayermilkClient"
+    ],
+    "main": [
+      "com.mzyxsl.playermilk.Playermilk"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
