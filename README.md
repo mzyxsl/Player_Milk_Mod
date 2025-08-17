@@ -1,5 +1,5 @@
 ## 版本
-Minecraft 1.28.8 Fabric
+Minecraft 1.21.8 Fabric
 
 ## 开发环境
 + IntelliJ IDEA
