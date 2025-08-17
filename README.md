@@ -1,3 +1,6 @@
+## 版本
+Minecraft 1.28.8 Fabric
+
 ## 开发环境
 + IntelliJ IDEA
 + Gradle 8.14.2
