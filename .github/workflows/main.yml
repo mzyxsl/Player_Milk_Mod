@@ -8,12 +8,11 @@ on:
   pull_request:
     branches: [ "master" ]
 
-env:
-  TZ: Asia/Shanghai
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
     steps:
     - uses: actions/checkout@v4
     - name: set up JDK 21
