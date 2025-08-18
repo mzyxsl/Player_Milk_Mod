@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      TZ: 'Asia/Shanghai'
+      TZ: Asia/Shanghai
     steps:
     - uses: actions/checkout@v4
     - name: set up JDK 21
