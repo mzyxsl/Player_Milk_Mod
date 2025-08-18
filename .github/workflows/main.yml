@@ -30,7 +30,7 @@ jobs:
       run: |
         chmod +x gradlew
         ./gradlew genSources
-        ./gradlew build
+        ./gradlew build -Duser.timezone=Asia/Shanghai
 
     - name: Upload jar
       uses: actions/upload-artifact@v4
