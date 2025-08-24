@@ -5,9 +5,9 @@ Minecraft模组，可以接玩家的奶
 Minecraft 1.21.8 Fabric
 
 ## 开发环境
-+ IntelliJ IDEA
-+ Gradle 8.14.2
-+ Java 21
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-%23000000?logo=intellijidea)
+![Gradle](https://img.shields.io/badge/Gradle-8.13-%2302303A?logo=gradle&labelColor=%2302303A)
+![java](https://img.shields.io/badge/java-21-21)
 
 ## 构建
 
