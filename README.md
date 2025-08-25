@@ -2,7 +2,7 @@
 Minecraft模组，可以接玩家的奶
 
 ## 版本
-Minecraft 1.21.8 Fabric
+Minecraft 1.21.5 Fabric
 
 ## 开发环境
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-%23000000?logo=intellijidea)
