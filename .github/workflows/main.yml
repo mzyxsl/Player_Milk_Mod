@@ -4,9 +4,9 @@ on:
   repository_dispatch:
   workflow_dispatch:
   push: 
-    branches: [ "master" ]
+    branches: [ "1.21.5-Fabric" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "1.21.5-Fabric" ]
 
 jobs:
   build:
