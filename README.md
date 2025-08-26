@@ -14,7 +14,7 @@ Minecraft 1.21.5 Fabric
 Windows
 
 ```cmd
-git clone https://github.com/mzyxsl/Player_Milk_Mod.git
+git clone --branch 1.21.5-Fabric https://github.com/mzyxsl/Player_Milk_Mod.git
 cd Player_Milk_Mod
 gradlew genSources
 gradlew build
@@ -23,7 +23,7 @@ gradlew build
 Linux
 
 ```bash
-git clone https://github.com/mzyxsl/Player_Milk_Mod.git
+git clone --branch 1.21.5-Fabric https://github.com/mzyxsl/Player_Milk_Mod.git
 cd Player_Milk_Mod
 chmod +x gradlew  # 首次执行需要给执行权限
 ./gradlew genSources
