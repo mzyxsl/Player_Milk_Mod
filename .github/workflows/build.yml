@@ -29,7 +29,6 @@ jobs:
       - name: Build jar
         run: |
           chmod +x gradlew
-          ./gradlew setupDecompWorkspace
           ./gradlew build -Duser.timezone=Asia/Shanghai
 
       - name: Upload jar
