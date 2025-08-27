@@ -1,0 +1,13 @@
+{
+  "itemGroup.playermilk": "Example Mod Tab",
+  "block.playermilk.example_block": "Example Block",
+  "item.playermilk.example_item": "Example Item",
+
+  "playermilk.configuration.title": "Player Milk Configs",
+  "playermilk.configuration.section.playermilk.common.toml": "Player Milk Configs",
+  "playermilk.configuration.section.playermilk.common.toml.title": "Player Milk Configs",
+  "playermilk.configuration.items": "Item List",
+  "playermilk.configuration.logDirtBlock": "Log Dirt Block",
+  "playermilk.configuration.magicNumberIntroduction": "Magic Number Text",
+  "playermilk.configuration.magicNumber": "Magic Number"
+}
