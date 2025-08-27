@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class PlayerMilkHandler {
     @SubscribeEvent
-    public void onPlayerInteract(PlayerInteractEvent.EntityInteract event) {
+    public static void onPlayerInteract(PlayerInteractEvent.EntityInteract event) {
         // 检查是否右键点击了玩家
         if (event.getTarget() instanceof EntityPlayer) {
             EntityPlayer interactingPlayer = event.getEntityPlayer();
@@ -19,6 +19,8 @@ public class PlayerMilkHandler {
                 // 取消原有事件
                 event.setCanceled(true);
 
+                ItemStack milkBucket = new ItemStack(Items.MILK_BUCKET);
+
                 // 检测当前玩家游戏模式
                 if(!interactingPlayer.isCreative()) {
                     // 消耗一个空桶
@@ -27,12 +29,13 @@ public class PlayerMilkHandler {
 
                 // 给玩家牛奶桶
                 if (heldItem.isEmpty()) {
-                    interactingPlayer.setHeldItem(event.getHand(), new ItemStack(Items.MILK_BUCKET));
+                    interactingPlayer.setHeldItem(event.getHand(), milkBucket);
                 } else {
-                    if (!interactingPlayer.inventory.addItemStackToInventory(new ItemStack(Items.MILK_BUCKET))) {
-                        interactingPlayer.dropItem(new ItemStack(Items.MILK_BUCKET), false);
+                    if (!interactingPlayer.inventory.addItemStackToInventory(milkBucket)) {
+                        interactingPlayer.dropItem(milkBucket, false);
                     }
                 }
+
                 interactingPlayer.world.playSound(null, interactingPlayer.posX, interactingPlayer.posY, interactingPlayer.posZ,
                         net.minecraft.init.SoundEvents.ENTITY_COW_MILK,
                         net.minecraft.util.SoundCategory.PLAYERS,
