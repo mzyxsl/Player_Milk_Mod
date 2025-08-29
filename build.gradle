@@ -32,10 +32,6 @@ repositories {
         name = "Terraformers"
         url = "https://maven.terraformersmc.com/"
     }
-    maven {
-        name = "mzyxsl"
-        url = "https://mzyxsl.github.io/mzyxsl/"
-    }
 }
 
 dependencies {
@@ -44,7 +40,6 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
-    modImplementation "com.mzyxsl:carpet:${project.carpet_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 }
 
