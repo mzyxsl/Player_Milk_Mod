@@ -33,5 +33,6 @@ jobs:
           ./gradlew build -Duser.timezone=Asia/Shanghai
       - uses: ncipollo/release-action@v1
         with:
+          allowUpdates: "true"
           tag: ${{ github.ref_name }}
           artifacts: "build/libs/PlayerMilk-*-*.jar"
