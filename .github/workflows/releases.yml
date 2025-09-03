@@ -9,10 +9,11 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     env:
       TZ: Asia/Shanghai
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v5
       - name: set up JDK 21
@@ -30,6 +31,6 @@ jobs:
         run: |
           chmod +x gradlew
           ./gradlew build -Duser.timezone=Asia/Shanghai
-    - uses: ncipollo/release-action@v1
-      with:
-        artifacts: " build/libs/PlayerMilk-*-*.jar"
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: " build/libs/PlayerMilk-*-*.jar"
