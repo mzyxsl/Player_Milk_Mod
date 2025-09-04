@@ -6,7 +6,6 @@ on:
     - '*'
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
     env:
@@ -34,5 +33,4 @@ jobs:
       - uses: ncipollo/release-action@v1
         with:
           allowUpdates: "true"
-          tag: ${{ github.ref_name }}
           artifacts: "build/libs/PlayerMilk-*-*[!-sources].jar"
