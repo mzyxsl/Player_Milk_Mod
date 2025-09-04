@@ -35,4 +35,4 @@ jobs:
         with:
           allowUpdates: "true"
           tag: ${{ github.ref_name }}
-          artifacts: "build/libs/PlayerMilk-*-*.jar"
+          artifacts: "build/libs/PlayerMilk-*-*[!-sources].jar"
