@@ -1,4 +1,4 @@
-name: Minecraft Mod
+name: test
 
 on:
   repository_dispatch:
