@@ -1,9 +1,9 @@
-name: Minecraft Mod
+name: test
 
 on:
   repository_dispatch:
   workflow_dispatch:
-  push: 
+  pull_request:
     branches: [ "1.21.5-Fabric" ]
 
 jobs:
@@ -29,9 +29,3 @@ jobs:
         chmod +x gradlew
         ./gradlew genSources
         ./gradlew build -Duser.timezone=Asia/Shanghai
-
-    - name: Upload jar
-      uses: actions/upload-artifact@v4
-      with:
-        name: Player-Milk
-        path: build/libs/PlayerMilk-*.*
