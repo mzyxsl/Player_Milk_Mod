@@ -4,7 +4,7 @@ on:
   repository_dispatch:
   workflow_dispatch:
   pull_request:
-    branches: [ "master" ]
+    branches: [ "1.21.8-fabric" ]
 
 jobs:
   build:
