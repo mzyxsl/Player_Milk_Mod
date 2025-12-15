@@ -33,7 +33,7 @@ jobs:
         ./gradlew build -Duser.timezone=Asia/Shanghai
 
     - name: Upload jar
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: Player-Milk
         path: build/libs/PlayerMilk-*.*
